@@ -1,14 +1,12 @@
 
-//import './App.css'
+
 
 function App() {
 
 
   return (
     <>
-      <p class="text-3xl font-bold underline">
-    Hello world!
-  </p>
+      <div className="flex items-center justify-center h-screen bg-gray-100"></div>
     </>
   )
 }
