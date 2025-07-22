@@ -6,6 +6,7 @@ import { ProjectsSection } from "../Components/ProjectSection";
 import { SkillsSection } from "../Components/SkillsSection";
 import { StarBackground } from "../Components/StarBackground";
 import { ThemeToggle } from "../Components/ThemeToggle";
+import { Footer } from "../Components/Footer";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
         <SkillsSection/>
         <ProjectsSection/>
         <ContactSection/>
+        <Footer/>
     </div>
   );
 }
