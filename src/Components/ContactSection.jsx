@@ -29,7 +29,7 @@ Yeni fırsatları görüşmeye her zaman açığım.
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6 text-center">
               {" "}
-              Contact Information
+              İletişim Bilgilerim
             </h3>
 
             <div className="flex flex-col items-center space-y-6">
