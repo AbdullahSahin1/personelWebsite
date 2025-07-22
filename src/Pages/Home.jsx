@@ -1,3 +1,4 @@
+import { ContactSection } from "../Components/ContactSection";
 import { AboutSection } from "../Components/AboutSection";
 import { HeroSection } from "../Components/HeroSection";
 import { Navbar } from "../Components/Navbar";
@@ -16,6 +17,7 @@ export const Home = () => {
         <AboutSection/>
         <SkillsSection/>
         <ProjectsSection/>
+        <ContactSection/>
     </div>
   );
 }
