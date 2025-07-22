@@ -67,7 +67,7 @@ Yeni fırsatları görüşmeye her zaman açığım.
             <div className="pt-8 flex flex-col items-center">
               <h4 className="font-medium mb-4">Sosyal Medya</h4>
               <div className="flex space-x-4">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/abdullahsahin111/" target="_blank">
                   <Linkedin />
                 </a>
               
