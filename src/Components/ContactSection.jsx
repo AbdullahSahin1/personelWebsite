@@ -71,7 +71,7 @@ Yeni fırsatları görüşmeye her zaman açığım.
                   <Linkedin />
                 </a>
               
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/aabdullahsahiin/" target="_blank">
                   <Instagram />
                 </a>
                
