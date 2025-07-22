@@ -65,7 +65,7 @@ Yeni fırsatları görüşmeye her zaman açığım.
             </div>
 
             <div className="pt-8 flex flex-col items-center">
-              <h4 className="font-medium mb-4"> Connect With Me</h4>
+              <h4 className="font-medium mb-4">Sosyal Medya</h4>
               <div className="flex space-x-4">
                 <a href="#" target="_blank">
                   <Linkedin />
