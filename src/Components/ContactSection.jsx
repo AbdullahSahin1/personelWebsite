@@ -25,14 +25,14 @@ export const ContactSection = () => {
           I'm always open to discussing new opportunities.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
+        <div className="flex justify-center">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">
+            <h3 className="text-2xl font-semibold mb-6 text-center">
               {" "}
               Contact Information
             </h3>
 
-            <div className="space-y-6 justify-center">
+            <div className="flex flex-col items-center space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
@@ -64,21 +64,17 @@ export const ContactSection = () => {
               </div>
             </div>
 
-            <div className="pt-8">
+            <div className="pt-8 flex flex-col items-center">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
+              <div className="flex space-x-4">
                 <a href="#" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
+              
                 <a href="#" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
-                </a>
+               
               </div>
             </div>
           </div>
