@@ -7,13 +7,13 @@ const skills = [
   { name: "JavaScript", level: 80, category: "Frontend" },
   { name: "React", level: 90, category: "Frontend" },
   { name: "Tailwind CSS", level: 85, category: "Frontend" },
-  { name: "Git/GitHub", level: 75, category: "Frontend" },
-  { name: "VS Code", level: 95, category: "Frontend" },
+  { name: "Git/GitHub", level: 80, category: "Frontend" },
+  { name: "VS Code", level: 90, category: "Frontend" },
 
   // Mobile
   { name: "React Native", level: 80, category: "Mobile" },
   { name: "Kotlin", level: 75, category: "Mobile" },
-  { name: "Xamarin", level: 60, category: "Mobile" },
+  { name: "Xamarin", level: 55, category: "Mobile" },
   { name: "Android SDK", level: 75, category: "Mobile" },
   { name: "Firebase", level: 70, category: "Mobile" },
   { name: "REST API Integration", level: 70, category: "Mobile" },
@@ -84,6 +84,6 @@ export const SkillsSection = () => {
           ))}
         </div>
       </div>
-    </section>
+    </section> 
   );
 };
