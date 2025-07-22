@@ -8,27 +8,11 @@ import {
   Twitch,
   Twitter,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { useToast } from "@/hooks/use-toast";
-import { useState } from "react";
+
+
 
 export const ContactSection = () => {
-  const { toast } = useToast();
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    setIsSubmitting(true);
-
-    setTimeout(() => {
-      toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
-      setIsSubmitting(false);
-    }, 1500);
-  };
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
@@ -41,7 +25,7 @@ export const ContactSection = () => {
           I'm always open to discussing new opportunities.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
@@ -98,8 +82,6 @@ export const ContactSection = () => {
               </div>
             </div>
           </div>
-
-        
         </div>
       </div>
     </section>
