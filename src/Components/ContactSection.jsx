@@ -40,10 +40,10 @@ Yeni fırsatları görüşmeye her zaman açığım.
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:sahinabdullah2003@hotmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    sahinabdullah2003@hotmail.com
                   </a>
                 </div>
               </div>
